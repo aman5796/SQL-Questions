@@ -1,0 +1,10 @@
+Que: Show first name of patients that start with the letter 'C'
+
+Ans:
+
+SELECT
+  first_name
+FROM
+  patients
+WHERE
+  first_name LIKE 'C%'
