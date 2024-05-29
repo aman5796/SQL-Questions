@@ -1,0 +1,6 @@
+Que: Show the total number of admissions
+
+Ans:
+
+SELECT COUNT(*) AS total_admissions
+FROM admissions;
